@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task 5-13</h1>
+    <script>
+        let step1 = prompt("Choose your branch:" + "\n1 - Science, 2 - Humanitarian subjects, 3 - Art, 4 - Sport:");
+        parseInt(step1);
+        if(step1 == 1){
+            let step2 = prompt("1 - Math, 2 - Physics:");
+            parseInt(step2);
+            if(step2 == 1){
+                alert("You are Financier");
+            } else if( step2 == 2){
+                alert("You are Engineer");
+            } else {
+                alert("Enter one of from 1 and 2");
+            }
+        } else if(step1 == 2){
+            let step2 = prompt("1 - History, 2 - Foreign Languages:");
+            if(step2 == 1){
+                alert("You are Historic or Diplomat");
+            } else if( step2 == 2){
+                alert("You are Translator");
+            } else {
+                alert("Enter one of from 1 and 2");
+            }
+        } else if(step1 == 3){
+            let step2 = prompt("1 - Drawing, 2 -Singing:");
+            if(step2 == 1){
+                alert("You are Painter or Architect");
+            } else if( step2 == 2){
+                alert("You are Singer or Tamada");
+            } else {
+                alert("Enter one of from 1 and 2");
+            }
+        } else if(step1 == 4){
+            let step2 = prompt("1 - Team, 2 - Individual:");
+            if(step2 == 1){
+                alert("You are footballer or Basketball player");
+            } else if( step2 == 2){
+                alert("You are boxer or tennis player");
+            } else {
+                alert("Enter one of from 1 and 2");
+            }
+        } else{
+            alert("Enter one of from 1 to 4");
+        }
+    </script>
+</body>
+</html>

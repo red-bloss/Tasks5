@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task 5-15</h1>
+    <script>
+        let money = prompt("what amount of money do you want to convert?");
+        dollar = Math.floor(money/380);
+        cents = Math.round(parseInt((money % 380) * 100 / 380))
+        if(money%380 === 0){
+            alert(`ONLY ${dollar} USD`);
+        }
+        else{
+            alert(`${dollar} USD and ${cents} cents`)
+        }
+    </script>
+</body>
+</html>

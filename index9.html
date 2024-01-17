@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task 5-9</h1>
+    <script>
+        let money = prompt("Enter money do you would be convert");
+        parseInt(money);
+        let currency = prompt("Choose one of currency to convert? 1-USD, 2-EUR, 3-RUB");
+        
+        if(currency == 1){
+            alert(money + " KZT = " + (money/380) + " USD");
+        } else if(currency == 2){
+            alert(money + " KZT = " + (money/430) + " EUR");
+        } else if(currency == 3){
+            alert(money + " KZT = " + (money/6) + " RUB");
+        }
+
+    </script>
+</body>
+</html>
